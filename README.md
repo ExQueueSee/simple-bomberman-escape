@@ -131,4 +131,3 @@ npm run build
 
 ---
 
-Enjoy surviving the maze and escaping the explosion! 💥🧑‍🚀
