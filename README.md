@@ -1,11 +1,11 @@
-# 💣 Bomberman Escape
+# Bomberman Escape
 
 **Bomberman Escape** is a fast-paced, grid-based survival game built with **React 19** and **Tailwind CSS**.
 Players must navigate a procedurally generated maze, destroy obstacles, defeat monsters, and collect power-ups to safely reach the exit.
 
 ---
 
-## ✨ Features
+## Features
 
 * **Procedural Maze Generation**
   Each game generates a randomized **12 × 12** grid filled with destructible blocks, traps, and power-ups.
@@ -25,9 +25,9 @@ Players must navigate a procedurally generated maze, destroy obstacles, defeat m
 
 ---
 
-## 🕹️ Gameplay
+## Gameplay
 
-### 🎯 Objective
+### Objective
 
 Reach the **Exit (🚪)** tile located at the **bottom-right** corner of the map.
 
@@ -39,7 +39,7 @@ You lose the game if your health drops to zero due to:
 
 ---
 
-### 🎮 Controls
+### Controls
 
 The game uses a global `keydown` event listener:
 
@@ -48,7 +48,7 @@ The game uses a global `keydown` event listener:
 
 ---
 
-### 🏆 Scoring Table
+### Scoring Table
 
 Your score updates in real time based on the following actions:
 
@@ -61,9 +61,9 @@ Your score updates in real time based on the following actions:
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
-### ⚙️ Core Mechanics
+### Core Mechanics
 
 * **Grid System**
   The game runs on a fixed **12 × 12** grid using a `CELL_TYPES` enum to represent walls, traps, exits, and other entities.
@@ -79,7 +79,7 @@ Your score updates in real time based on the following actions:
 
 ---
 
-### 🧰 Tech Stack
+### Tech Stack
 
 * **Framework:** React 19
 * **Styling:** Tailwind CSS 3 (utility-first, responsive design)
@@ -88,7 +88,7 @@ Your score updates in real time based on the following actions:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 The project follows a standard React directory layout:
 
@@ -102,9 +102,9 @@ package.json       # Dependencies and scripts
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Installation
+### Installation
 
 1. Clone the repository
 2. Install dependencies:
@@ -121,7 +121,7 @@ npm start
 
 ---
 
-### 📦 Production Build
+### Production Build
 
 To create an optimized production build:
 
